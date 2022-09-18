@@ -1,0 +1,30 @@
+.home__roadmap{
+    margin-top: 80px;
+}
+.home__roadmap_p{
+    color: grey;
+    text-align: center;
+}
+.home__roadmap_ul{
+    list-style-type: none;
+    position: relative;
+}
+
+.home__roadmap_li{
+    position: relative;
+    border-left: 3px solid lightgrey;
+    padding: 0px 2px 10px 14px;
+}
+.home__roadmap_li_div{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgb(34, 192, 232);
+    border-radius: 100%;
+    top: 0px;
+    left: -12px;
+    background-color: white;
+}
+.home__roadmap_li_div_p{
+    font-size: 15px;
+}

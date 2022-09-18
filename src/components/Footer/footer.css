@@ -1,0 +1,30 @@
+.footer{
+margin-top: auto;
+}
+.footer__div{
+    margin: 30px auto 0px;
+background-color: white;
+}
+.footer__div_h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer__div_ul{
+    list-style: none;
+}
+.footer__div_li{
+    margin-right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer__div_li svg{
+   font-size: 20px;
+}
+.footer__copyright{
+    border-bottom: 1px solid gainsboro;
+    margin: 20px 0px;
+}
+.footer__copyright_p{
+    text-align: center;
+    font-size: 14px;
+}

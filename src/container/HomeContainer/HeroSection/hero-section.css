@@ -1,0 +1,15 @@
+.herosection-img{
+    width: auto;
+    max-height: 318px;
+    margin: 0 auto;
+    display: flex;
+}
+.herosection-btn{
+    padding: 10px 24px;
+    background-color: rgb(45, 115, 255);
+    border: none;
+    border-radius: 14px;
+    color: white;
+    max-width: "200px";
+    font-weight: bold;
+}
