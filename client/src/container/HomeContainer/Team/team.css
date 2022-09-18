@@ -1,0 +1,15 @@
+.home__team{
+    margin-top: 80px;
+}
+.home__team_p{
+    color: grey;
+    text-align: center;
+}
+.home__team_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+.home__team_p_position{
+    color: grey;
+}

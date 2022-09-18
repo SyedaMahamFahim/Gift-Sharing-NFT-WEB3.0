@@ -1,0 +1,20 @@
+.home__topnft{
+    margin-top: 80px;
+}
+.home__topnft_p{
+    color: grey;
+    text-align: center;
+}
+
+.home__topnft_img{
+    width: 100%;
+}
+.home__topnft_btn{
+    padding: 10px 24px;
+    border: none;
+    background-color: rgb(45, 115, 255);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+}

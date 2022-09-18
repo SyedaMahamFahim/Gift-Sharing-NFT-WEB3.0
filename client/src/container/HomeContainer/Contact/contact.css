@@ -1,0 +1,26 @@
+.home__contact{
+    margin-top: 80px;
+}
+.home__contact_p{
+    color: grey;
+    text-align: center;
+}
+.home__contact_input{
+    padding: 7px 20px 7px 20px;
+    font-size: 18px;
+}
+.home__contact_a{
+    font-size: 20px;
+}
+.home__contact_ul{
+    list-style: none;
+}
+.home__contact_li{
+    margin-right:30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.home__contact_li svg{
+  font-size: 20px;
+}
+
