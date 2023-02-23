@@ -23,13 +23,13 @@ https://nft-light-landing-page.netlify.app/
 Clone the project
 
 ```bash
-  git clone https://github.com/SyedaMahamFahim/NFT_Web_3.0_App.git
+  git clone https://github.com/SyedaMahamFahim/Gift-Sharing-NFT-WEB3.0
 ```
 
 Go to the project directory
 
 ```bash
-  cd NFT_Web_3.0_App
+  cd Gift-Sharing-NFT-WEB3.0
 ```
 
 Install dependencies
