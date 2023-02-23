@@ -4,8 +4,14 @@ import { InputsDetails } from "../../../../constants";
 import { TransactionContext } from "../../../../context/TransactionContext";
 
 const Card = () => {
-  const { formData, handleChange, sendTransaction, isLoading } =
-    useContext(TransactionContext);
+  const {
+    formData,
+    handleChange,
+    sendTransaction,
+    isLoading,
+    connectWallet,
+    currentAccount,
+  } = useContext(TransactionContext);
 
   const handleSubmit = (e) => {
     const { addressTo, amount, keyword, message } = formData;
@@ -25,7 +31,7 @@ const Card = () => {
       <div className="card">
         <div className="card-body">
           <h5 className="card-title text-center">
-            Send Random Picture To Your Crypto Partner
+            Send Random Text To Your Crypto Partner
           </h5>
           <hr />
           <form onSubmit={(e) => handleSubmit(e)}>
@@ -46,8 +52,23 @@ const Card = () => {
               <div className="spinner-border" role="status">
                 <span className="sr-only">Loading...</span>
               </div>
-            ) : (
+            ) : currentAccount ? (
               <Button text={"Send Now"} isSubmit={true} />
+            ) : (
+              <button
+                style={{
+                  padding: "10px 20px",
+                  border: "none",
+                  backgroundColor: "rgb(45, 115, 255)",
+                  color: "white",
+                  borderRadius: "14px",
+                  fontWeight: "bold",
+                }}
+                type="button"
+                onClick={connectWallet}
+              >
+                Connect Wallet
+              </button>
             )}
           </form>
         </div>

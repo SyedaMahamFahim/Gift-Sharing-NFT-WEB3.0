@@ -13,6 +13,7 @@ const Button = ({ text, isSubmit }) => {
           fontWeight: "bold",
         }}
         type={isSubmit ? "submit" : "button"}
+        
       >
         {text}
       </button>
