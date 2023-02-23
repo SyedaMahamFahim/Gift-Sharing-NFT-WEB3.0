@@ -1,4 +1,5 @@
-# NFT_Web_3.0_App
+# Gift-Sharing-NFT-WEB3.0
+
 
 # Authors
 
